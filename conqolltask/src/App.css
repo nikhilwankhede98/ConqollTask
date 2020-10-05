@@ -1,0 +1,163 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #0082e6;
+  width: 100%;
+}
+
+#logo{
+  font-family: monospace;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 33px;
+  text-decoration: none; 
+  color: white;
+}
+
+.logo-c{
+  margin-left: 10px;
+  font-size: 55px;
+  color: rgb(199, 25, 60);
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.logo-smiley {
+  margin-left: 10px;
+  font-size: 40px;
+  color: rgb(199, 25, 60);
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.nav-items{
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-items li{
+  padding-right:50px;
+  list-style: none;
+  letter-spacing: 5px;
+}
+
+.nav-items li .text:hover{
+  font-weight:bold;
+  font-size: 23px;
+  background-color: purple;
+
+}
+
+.nav-items li .text{
+  list-style: none;
+  font-family: monospace;
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0px;
+  margin: 0px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.short-text{
+  text-align: center;
+  padding-top: 8px;
+}
+
+.short-text1 {
+  color: chocolate;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: black;
+  font-family: cursive;
+}   
+
+.all-text{
+  text-align: center;
+  padding-top: 8px;
+}
+
+.all-text1{
+  color: #6ab04c;
+  font-size: 34px;
+  font-weight: bold;
+  text-shadow: black;
+  font-family: cursive;
+}
+
+.home {
+  background-color: #282c34;
+}
+
+.home-text{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  padding-top: 15px;
+  color: white;  
+}
+
+
+.home-text1{
+  text-align: center;
+  padding-top: 5px;
+  font-size: 21px;
+  font-weight: bold;
+  color: white;
+}
+
+.btn-1 {
+  border-radius: 10px;
+  padding: 0px 10px;
+  margin-left: 20px;
+  margin-right: 0px;
+  border: none;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 18px;
+} 
+
+#btn-11 {
+  background-color: cornflowerblue;
+  color: white;
+}
+
+#btn-22 {
+  background-color: tomato;
+  color: white;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
